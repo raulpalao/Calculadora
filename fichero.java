@@ -32,5 +32,20 @@ public class SumaNumeros
         resta = n1 + n2;
 
         System.out.println( "La resta de " + n1 + " menos " + n2 + " es " + resta + "." );
+
+        //division
+        int n5, n6, division;
+
+        Scanner teclado = new Scanner( System.in );
+
+        System.out.print( "Introduzca primer número: " );
+        n5 = teclado.nextInt();
+
+        System.out.print( "Introduzca segundo número: " );
+        n6 = teclado.nextInt();
+
+        division = n5 + n6;
+
+        System.out.println( "La division de " + n5 + " y " + n6 + " es " + division + "." );
     }
 }
